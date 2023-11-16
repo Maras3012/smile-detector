@@ -1,9 +1,9 @@
 import cv2
 
 # Učitavanje modela za lice, osmijeh i oči
-lice = cv2.CascadeClassifier('lice.xml')
-oko = cv2.CascadeClassifier('oko.xml')
-osmijeh = cv2.CascadeClassifier('osmijeh.xml')
+lice = cv2.CascadeClassifier('face.xml')
+oko = cv2.CascadeClassifier('eye.xml')
+osmijeh = cv2.CascadeClassifier('smile.xml')
 
 # Pokreni web kameru
 snimka = cv2.VideoCapture(0)
